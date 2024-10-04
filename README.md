@@ -26,7 +26,7 @@ Para instalar as dependências e executar a aplicação, siga os passos abaixo:
 
 3. **Inicie a aplicação**:
     ```
-    npm run server
+    npm run dev
     ```
 
 4. **Acesse a aplicação**:
