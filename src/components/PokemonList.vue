@@ -22,7 +22,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref, computed, onMounted } from 'vue';
+import { defineComponent, ref, computed } from 'vue';
 import { usePokemonStore } from '../stores/store';
 import { capitalizeFirstLetter } from '../utils/stringUtils';
 import { Pokemon } from '../interfaces/Pokemon.interface';
@@ -46,10 +46,6 @@ export default defineComponent({
 
       return filteredPokemons;
     });
-
-/*     onMounted(() => {
-      store.fetchPokemons();
-    }) */
 
     return {
       filterInput,
